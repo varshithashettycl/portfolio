@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #111;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  float: right;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a.active, .nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: white;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text span {
+  color: #ffeb3b;
+}
+
+.btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background: white;
+  color: #2196f3;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2196f3;
+  color: white;
+}
+
+/* About */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+/* Contact */
+.contact-section {
+  text-align: center;
+  padding: 60px;
+}
+
+.contact-info li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
